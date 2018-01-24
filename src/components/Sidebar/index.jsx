@@ -36,7 +36,11 @@ class Sidebar extends React.Component {
                         href="https://en.wikipedia.org/wiki/Dalecarlian_horse"
                         target="_blank"
                     >
-                        <img src={dalaHorseLeft} alt={title} />
+                        <img
+                            className="sidebar__horse"
+                            src={dalaHorseLeft}
+                            alt={title}
+                        />
                     </a>
                 </div>
             </div>

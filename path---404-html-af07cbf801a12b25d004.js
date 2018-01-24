@@ -1,0 +1,2 @@
+webpackJsonp([0xa2868bfb69fc],{329:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Allie & Derek's Wedding Site",subtitle:"June 16th, 2018 - Bath, Ohio",copyright:"© All rights reserved.",menu:[{label:"Home",path:"/"},{label:"Where?",path:"/where/"},{label:"When?",path:"/when/"},{label:"Accommodations",path:"/accommodations/"}]}}},pathContext:{}}}});
+//# sourceMappingURL=path---404-html-af07cbf801a12b25d004.js.map

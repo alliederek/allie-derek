@@ -20,8 +20,12 @@ module.exports = {
                 path: '/when/'
             },
             {
-                label: 'Accomodations',
-                path: '/accomodations/'
+                label: 'Accommodations',
+                path: '/accommodations/'
+            },
+            {
+                label: 'Contact Us',
+                path: '/contactus/'
             }
         ]
     },

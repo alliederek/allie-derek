@@ -32,7 +32,12 @@ class Sidebar extends React.Component {
                     <div>
                         <Menu data={menu} />
                     </div>
-                    <img src={dalaHorseLeft} alt={title} />
+                    <a
+                        href="https://en.wikipedia.org/wiki/Dalecarlian_horse"
+                        target="_blank"
+                    >
+                        <img src={dalaHorseLeft} alt={title} />
+                    </a>
                 </div>
             </div>
         );

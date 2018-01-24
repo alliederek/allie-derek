@@ -1,7 +1,7 @@
 ---
 title: "Accommodations"
 layout: page
-path: "/accomodations"
+path: "/accommodations"
 ---
 
 Weddings are always more fun when you a safe, affordable, nearby location to spend the night. Thankfully, we've got that covered for you!

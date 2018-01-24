@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import Sidebar from '../components/Sidebar';
 
@@ -37,7 +38,7 @@ class IndexRoute extends React.Component {
                         </p>
                         <p>
                             {
-                                "The navigation menu to the left (or above if you're on a phone) will help guide you to getting ready for our big day. We're excited to have you celebrate with us because we truely believe we wouldn't have made it this far without you. It's going to be a rockin' party and we hope you are as excited as we are!"
+                                "The navigation menu to the left (or above if you're on a phone) will help guide you to getting ready for our big day. We're excited to have you celebrate with us because we truly believe we wouldn't have made it this far without you. It's going to be a rockin' party and we hope you are as excited as we are!"
                             }
                         </p>
                         <p>
@@ -46,7 +47,7 @@ class IndexRoute extends React.Component {
                                     "If you're having trouble finding what you're looking for, don't fret, we'll be updating this site continuously with more information as we get closer to June. In the mean time, feel free to reach out to us "
                                 }
                             </span>
-                            <a href={`mailto:${email}`}>{'here'}</a>
+                            <Link to="/contactus/">{'here'}</Link>
                             <span>{'.'}</span>
                         </p>
                     </div>

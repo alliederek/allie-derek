@@ -33,7 +33,7 @@ class IndexRoute extends React.Component {
                         </p>
                         <p>
                             {
-                                "It has been an exciting four and half years, and we've decided to tie the knot! And yes, we know...you have questions..."
+                                "It has been an exciting four and a half years, and we've decided to tie the knot! And yes, we know...you have questions..."
                             }
                         </p>
                         <p>

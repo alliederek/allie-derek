@@ -1,5 +1,5 @@
-@import "../../assets/scss/variables";
-@import "../../assets/scss/mixins";
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
 
 .sidebar {
     width: 100%;
@@ -18,7 +18,7 @@
             font-size: $typographic-base-font-size * 1.125;
             font-weight: 500;
             @include line-height(1.125);
-            @include margin(.5, 0, .5, 0);
+            @include margin(0.5, 0, 0.5, 0);
             &-link {
                 color: $color-base;
                 &:hover,
@@ -28,6 +28,7 @@
             }
         }
         &-subtitle {
+            text-align: center;
             color: $color-gray;
             @include line-height(1);
             @include margin-bottom(1);
@@ -46,9 +47,14 @@
             padding: 30px 20px 0;
             &:after {
                 background: $color-gray-border;
-                background: linear-gradient(to bottom, $color-gray-border 0%, $color-gray-border 48%, $color-white 100%);
+                background: linear-gradient(
+                    to bottom,
+                    $color-gray-border 0%,
+                    $color-gray-border 48%,
+                    $color-white 100%
+                );
                 position: absolute;
-                content: "";
+                content: '';
                 width: 1px;
                 height: 540px;
                 top: 30px;

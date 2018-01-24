@@ -3,16 +3,16 @@ import Helmet from 'react-helmet';
 import '../assets/scss/init.scss';
 
 class Layout extends React.Component {
-  render() {
-    const { children } = this.props;
+    render() {
+        const { children } = this.props;
 
-    return (
-      <div className="layout">
-        <Helmet defaultTitle="Blog by John Doe" />
-        {children()}
-      </div>
-    );
-  }
+        return (
+            <div className="layout">
+                <Helmet defaultTitle="Allie & Derek's Wedding" />
+                {children()}
+            </div>
+        );
+    }
 }
 
 export default Layout;

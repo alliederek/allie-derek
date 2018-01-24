@@ -3,6 +3,12 @@
 
 .sidebar {
     width: 100%;
+    &__link {
+        display: inline-block;
+    }
+    &__title-block {
+        text-align: center;
+    }
     &__inner {
         position: relative;
         padding: 25px 20px 0;
@@ -37,6 +43,9 @@
     &__copyright {
         color: lighten($color-gray, 18%);
         font-size: $typographic-small-font-size;
+    }
+    &__horse-container {
+        text-align: center;
     }
     &__horse {
         &:hover {

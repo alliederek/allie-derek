@@ -17,8 +17,8 @@ class Sidebar extends React.Component {
         } = this.props.data.site.siteMetadata;
 
         const authorBlock = (
-            <div>
-                <Link to="/">
+            <div className="sidebar__title-block">
+                <Link to="/" className="sidebar__link">
                     <img src={script} alt={title} />
                 </Link>
                 <p className="sidebar__author-subtitle">{subtitle}</p>
@@ -32,16 +32,19 @@ class Sidebar extends React.Component {
                     <div>
                         <Menu data={menu} />
                     </div>
-                    <a
-                        href="https://en.wikipedia.org/wiki/Dalecarlian_horse"
-                        target="_blank"
-                    >
-                        <img
-                            className="sidebar__horse"
-                            src={dalaHorseLeft}
-                            alt={title}
-                        />
-                    </a>
+                    <div className="sidebar__horse-container">
+                        <a
+                            className="sidebar__link"
+                            href="https://en.wikipedia.org/wiki/Dalecarlian_horse"
+                            target="_blank"
+                        >
+                            <img
+                                className="sidebar__horse"
+                                src={dalaHorseLeft}
+                                alt={title}
+                            />
+                        </a>
+                    </div>
                 </div>
             </div>
         );

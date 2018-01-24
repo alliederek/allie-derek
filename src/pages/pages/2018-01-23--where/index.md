@@ -8,7 +8,7 @@ path: "/where"
 
 We'll be having both our ceremony and reception at **Hale Farm & Village** in **Bath, Ohio**.
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3002.2888850218687!2d-81.59458668431215!3d41.193675015943874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8830d942511c45ef%3A0xa273c0d0426f8f85!2sHale+Farm+%26+Village!5e0!3m2!1sen!2sus!4v1516818814663" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3002.2888850218687!2d-81.59458668431215!3d41.193675015943874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8830d942511c45ef%3A0xa273c0d0426f8f85!2sHale+Farm+%26+Village!5e0!3m2!1sen!2sus!4v1516818814663" width="600" height="450" frameBorder="0" style="border:0" allowfullscreen></iframe>
 
 The ceremony :ring: will take place outside in the apple :apple: orchard, and we'll have the reception inside at the gatehouse. The two locations are within walking distance of each other.
 

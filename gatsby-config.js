@@ -24,6 +24,10 @@ module.exports = {
                 path: '/accommodations/'
             },
             {
+                label: 'Getting In',
+                path: '/getting-in/'
+            },
+            {
                 label: 'Contact Us',
                 path: '/contactus/'
             }
